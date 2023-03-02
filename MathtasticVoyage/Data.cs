@@ -9,7 +9,7 @@ namespace MathtasticVoyage
 {
     public class Data
     {
-        public static Queue<string> GetDataQueue()
+        public static Queue<string> GetProblemQueue()
         {
             string fileData = ReadFileText(@"C:\Users\POBOYINSAMSARA\Desktop\Coding\mathproblems.txt");
 

@@ -21,7 +21,7 @@ namespace MathtasticVoyage
     public partial class MainWindow : Window
     {
 
-        Queue<string> queue = Data.GetDataQueue();
+        Queue<string> queue = Data.GetProblemQueue();
         MathProblem prob;
         List<string> CorrectList = new List<string>();
         List<string> IncorrectList = new List<string>();
